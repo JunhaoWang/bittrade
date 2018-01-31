@@ -1,7 +1,5 @@
-
-from click.testing import CliRunner
-
 from bittrade.cli import main
+from click.testing import CliRunner
 
 
 def test_main():
