@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-from __future__ import absolute_import
-from __future__ import print_function
-
 import io
 import re
 from glob import glob
@@ -18,7 +14,7 @@ from setuptools import setup
 def read(*names, **kwargs):
     return io.open(
         join(dirname(__file__), *names),
-        encoding=kwargs.get('encoding', 'utf8')
+        encoding=kwargs.get('encoding', 'utf8'),
     ).read()
 
 
@@ -28,8 +24,11 @@ setup(
     license='MIT license',
     description='Crypto trading AI agent.',
     long_description='%s\n%s' % (
-        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
-        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
+        re.compile(
+            '^.. start-badges.*^.. end-badges',
+            re.M | re.S,
+        ).sub('', read('README.rst')),
+        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst')),
     ),
     author='Junhao Wang',
     author_email='junhao@umich.edu',
@@ -77,6 +76,6 @@ setup(
     entry_points={
         'console_scripts': [
             'bittrade = bittrade.cli:main',
-        ]
+        ],
     },
 )

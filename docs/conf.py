@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 import os
 
+import sphinx_py3doc_enhanced_theme
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -25,7 +23,7 @@ master_doc = 'index'
 project = 'bittrade'
 year = '2018'
 author = 'Junhao Wang'
-copyright = '{0}, {1}'.format(year, author)
+copyright = '{}, {}'.format(year, author)
 version = release = '0.1.0'
 
 pygments_style = 'trac'
@@ -34,18 +32,18 @@ extlinks = {
     'issue': ('https://github.com/JunhaoWang/bittrade/issues/%s', '#'),
     'pr': ('https://github.com/JunhaoWang/bittrade/pull/%s', 'PR #'),
 }
-import sphinx_py3doc_enhanced_theme
+
 html_theme = "sphinx_py3doc_enhanced_theme"
 html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
 html_theme_options = {
-    'githuburl': 'https://github.com/JunhaoWang/bittrade/'
+    'githuburl': 'https://github.com/JunhaoWang/bittrade/',
 }
 
 html_use_smartypants = True
 html_last_updated_fmt = '%b %d, %Y'
 html_split_index = False
 html_sidebars = {
-   '**': ['searchbox.html', 'globaltoc.html', 'sourcelink.html'],
+    '**': ['searchbox.html', 'globaltoc.html', 'sourcelink.html'],
 }
 html_short_title = '%s-%s' % (project, version)
 
