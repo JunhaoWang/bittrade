@@ -37,8 +37,6 @@ Overview
     :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JunhaoWang/bittrade&amp;utm_campaign=Badge_Grade
     :alt: Codacy Code Quality Status
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7)]()
-
 .. |codeclimate| image:: https://codeclimate.com/github/JunhaoWang/bittrade/badges/gpa.svg
    :target: https://codeclimate.com/github/JunhaoWang/bittrade
    :alt: CodeClimate Quality Status
@@ -105,8 +103,3 @@ Note, to combine the coverage data from all the tox environments run:
       - ::
 
             PYTEST_ADDOPTS=--cov-append tox
-
-
-.. image:: https://api.codacy.com/project/badge/Grade/eca038aec42840d2b126ec4c239b9e0e
-   :alt: Codacy Badge
-   :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&utm_medium=referral&utm_content=JunhaoWang/bittrade&utm_campaign=badger
