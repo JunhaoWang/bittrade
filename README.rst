@@ -33,7 +33,7 @@ Overview
     :alt: Coverage Status
     :target: https://coveralls.io/r/JunhaoWang/bittrade
 
-.. |codacy| image:: https://img.shields.io/codacy/REPLACE_WITH_PROJECT_ID.svg
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/REPLACE_WITH_PROJECT_ID
     :target: https://www.codacy.com/app/JunhaoWang/bittrade
     :alt: Codacy Code Quality Status
 
