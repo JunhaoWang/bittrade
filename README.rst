@@ -33,9 +33,11 @@ Overview
     :alt: Coverage Status
     :target: https://coveralls.io/r/JunhaoWang/bittrade
 
-.. |codacy| image:: https://api.codacy.com/project/badge/Grade/REPLACE_WITH_PROJECT_ID
-    :target: https://www.codacy.com/app/JunhaoWang/bittrade
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7
+    :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JunhaoWang/bittrade&amp;utm_campaign=Badge_Grade
     :alt: Codacy Code Quality Status
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7)]()
 
 .. |codeclimate| image:: https://codeclimate.com/github/JunhaoWang/bittrade/badges/gpa.svg
    :target: https://codeclimate.com/github/JunhaoWang/bittrade
