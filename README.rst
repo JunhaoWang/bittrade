@@ -10,9 +10,9 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
+      - | |travis| |requires|
         | |coveralls|
-        | |landscape| |scrutinizer| |codacy| |codeclimate|
+        | |codacy| |codeclimate|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
@@ -25,10 +25,6 @@ Overview
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/JunhaoWang/bittrade
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/JunhaoWang/bittrade?branch=master&svg=true
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/JunhaoWang/bittrade
-
 .. |requires| image:: https://requires.io/github/JunhaoWang/bittrade/requirements.svg?branch=master
     :alt: Requirements Status
     :target: https://requires.io/github/JunhaoWang/bittrade/requirements/?branch=master
@@ -37,13 +33,11 @@ Overview
     :alt: Coverage Status
     :target: https://coveralls.io/r/JunhaoWang/bittrade
 
-.. |landscape| image:: https://landscape.io/github/JunhaoWang/bittrade/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/JunhaoWang/bittrade/master
-    :alt: Code Quality Status
-
-.. |codacy| image:: https://img.shields.io/codacy/REPLACE_WITH_PROJECT_ID.svg
-    :target: https://www.codacy.com/app/JunhaoWang/bittrade
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7
+    :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JunhaoWang/bittrade&amp;utm_campaign=Badge_Grade
     :alt: Codacy Code Quality Status
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7)]()
 
 .. |codeclimate| image:: https://codeclimate.com/github/JunhaoWang/bittrade/badges/gpa.svg
    :target: https://codeclimate.com/github/JunhaoWang/bittrade
@@ -68,10 +62,6 @@ Overview
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/bittrade.svg
     :alt: Supported implementations
     :target: https://pypi.python.org/pypi/bittrade
-
-.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/JunhaoWang/bittrade/master.svg
-    :alt: Scrutinizer Status
-    :target: https://scrutinizer-ci.com/g/JunhaoWang/bittrade/
 
 
 .. end-badges
