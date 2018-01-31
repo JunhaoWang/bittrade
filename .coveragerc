@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/bittrade
+   */site-packages/bittrade
+
+[run]
+branch = true
+source =
+    bittrade
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
