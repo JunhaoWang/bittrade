@@ -2,7 +2,6 @@ from datetime import datetime
 import pandas as pd
 import requests
 
-
 def get_price_data(query):
     '''
         Connected to google finance, get the price data, return to panda
@@ -34,7 +33,6 @@ def get_price_data(query):
                 ), float(cols[1]), int(cols[5]),
             ])
     return pd.DataFrame(data, index=index, columns=['Open', 'High', 'Low', 'Close', 'Volume'])
-
 
 def getClosePrice(target, period='1Y'):
     '''
