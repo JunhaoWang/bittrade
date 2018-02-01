@@ -34,6 +34,7 @@ def get_price_data(query):
             ])
     return pd.DataFrame(data, index=index, columns=['Open', 'High', 'Low', 'Close', 'Volume'])
 
+
 def getClosePrice(target, period='1Y'):
     '''
         Get the close price, for every target ticker.
@@ -69,7 +70,7 @@ def getClosePriceTable(targetList, interpolation=True, period='1Y'):
             df_table = price
         else:
             df_table = pd.merge(df_table, price, how='outer', on='Date')
-    if (interpolation == False):
+    if (not interpolation):
         return df_table
     else:
         priceTable = df_table

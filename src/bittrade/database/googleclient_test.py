@@ -38,5 +38,7 @@ etfTickers = [
     "NASDAQ:TVIX", "NYSEARCA:USO", "NYSEARCA:GLD", "NYSEARCA:TBT", "NYSEARCA:UNG",
 ]
 
-table = getClosePriceTable(currencyTickers + etfTickers, interpolation=True, period='1Y')
+table = getClosePriceTable(
+    currencyTickers + etfTickers, interpolation=True, period='1Y',
+)
 print(table.head())
