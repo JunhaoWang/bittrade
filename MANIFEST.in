@@ -16,4 +16,4 @@ include README.rst
 
 include tox.ini .travis.yml .pre-commit-config.yaml
 
-global-exclude *.py[cod] __pycache__ *.so *.dylib *.html *.md
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.html *.md *.css *.eot *.ico *.js *.map *.png *.svg *.ttf *.woff *.xml site site/*
