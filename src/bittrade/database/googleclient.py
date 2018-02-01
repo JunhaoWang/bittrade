@@ -2,6 +2,7 @@ from datetime import datetime
 import pandas as pd
 import requests
 
+
 def get_price_data(query):
     '''
         Connected to google finance, get the price data, return to panda
@@ -34,7 +35,8 @@ def get_price_data(query):
             ])
     return pd.DataFrame(data, index=index, columns=['Open', 'High', 'Low', 'Close', 'Volume'])
 
-def getClosePrice(target, period = '1Y'):
+
+def getClosePrice(target, period='1Y'):
     '''
         Get the close price, for every target ticker.
     '''
@@ -52,7 +54,8 @@ def getClosePrice(target, period = '1Y'):
     price.columns = ['Date', ticker]
     return price
 
-def getClosePriceTable(targetList, interpolation = True, period = '1Y'):
+
+def getClosePriceTable(targetList, interpolation=True, period='1Y'):
     '''
         Function built on getClosePrice, this function take a list of tickers
         and return to a panda dataframe, where every column is the closed price
@@ -75,6 +78,8 @@ def getClosePriceTable(targetList, interpolation = True, period = '1Y'):
         # The interpolation method I use here is linear interpolation.
         priceTable['Date'] = pd.to_datetime(priceTable.Date)
         priceTable = priceTable.sort_values(by='Date')
-        priceTable = priceTable.interpolate(method='linear', axis=0).ffill().bfill()
+        priceTable = priceTable.interpolate(
+            method='linear', axis=0,
+        ).ffill().bfill()
         priceTable = priceTable.set_index('Date')
         return priceTable
