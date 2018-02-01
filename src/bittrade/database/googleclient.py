@@ -2,6 +2,7 @@ from datetime import datetime
 import pandas as pd
 import requests
 
+
 def get_price_data(query):
     '''
         Connected to google finance, get the price data, return to panda
