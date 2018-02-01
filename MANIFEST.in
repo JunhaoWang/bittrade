@@ -14,6 +14,8 @@ include CONTRIBUTING.rst
 include LICENSE
 include README.rst
 
-include tox.ini .travis.yml .pre-commit-config.yaml
+include tox.ini .travis.yml .pre-commit-config.yaml pytest.ini
 
-global-exclude *.py[cod] __pycache__ *.so *.dylib *.html *.md *.css *.eot *.ico *.js *.map *.png *.svg *.ttf *.woff *.xml site site/*
+global-include src src/*.py
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.html *.md *.css *.eot *.ico *.js *.map *.png *.svg *.ttf *.woff *.xml site site/* .pytest_cache .pytest_cache/*
