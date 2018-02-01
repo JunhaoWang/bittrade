@@ -12,7 +12,7 @@ Overview
     * - tests
       - | |travis| |requires|
         | |coveralls|
-        | |codacy| |codeclimate|
+        | |codacy|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
@@ -36,10 +36,6 @@ Overview
 .. |codacy| image:: https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7
     :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JunhaoWang/bittrade&amp;utm_campaign=Badge_Grade
     :alt: Codacy Code Quality Status
-
-.. |codeclimate| image:: https://codeclimate.com/github/JunhaoWang/bittrade/badges/gpa.svg
-   :target: https://codeclimate.com/github/JunhaoWang/bittrade
-   :alt: CodeClimate Quality Status
 
 .. |version| image:: https://img.shields.io/pypi/v/bittrade.svg
     :alt: PyPI Package latest release
