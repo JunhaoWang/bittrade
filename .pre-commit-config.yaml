@@ -7,8 +7,6 @@ repos:
     -   id: autopep8-wrapper
     -   id: check-docstring-first
     -   id: check-json
-    -   id: check-yaml
-        exclude: /template/
     -   id: debug-statements
     -   id: name-tests-test
         args: [--django]
@@ -18,6 +16,8 @@ repos:
     -   id: check-ast
     -   id: fix-encoding-pragma
         args: [--remove]
+    -   id: check-added-large-files
+        args: ['--maxkb=1024']
 -   repo: https://github.com/asottile/reorder_python_imports.git
     sha: v0.3.5
     hooks:

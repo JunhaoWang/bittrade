@@ -23,7 +23,7 @@ default_context:
     c_extension_optional:      'no'
     c_extension_support:       'no'
     codacy:                    'yes'
-    codeclimate:               'yes'
+    codeclimate:               'no'
     codecov:                   'no'
     command_line_interface:    'click'
     command_line_interface_bin_name: 'bittrade'
