@@ -24,7 +24,7 @@ project = 'bittrade'
 year = '2018'
 author = 'Junhao Wang'
 copyright = '{}, {}'.format(year, author)
-version = release = '0.1.0'
+version = release = '0.1.1'
 
 pygments_style = 'trac'
 templates_path = ['.']

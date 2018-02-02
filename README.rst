@@ -15,7 +15,6 @@ Overview
         | |codacy|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/bittrade/badge/?style=flat
     :target: https://readthedocs.org/projects/bittrade
@@ -29,9 +28,9 @@ Overview
     :alt: Requirements Status
     :target: https://requires.io/github/JunhaoWang/bittrade/requirements/?branch=master
 
-.. |coveralls| image:: https://coveralls.io/repos/JunhaoWang/bittrade/badge.svg?branch=master&service=github
+.. |coveralls| image:: https://coveralls.io/repos/github/JunhaoWang/bittrade/badge.svg?branch=master
     :alt: Coverage Status
-    :target: https://coveralls.io/r/JunhaoWang/bittrade
+    :target: https://coveralls.io/github/JunhaoWang/bittrade?branch=master
 
 .. |codacy| image:: https://api.codacy.com/project/badge/Grade/1a92a2df373946789f812c7af01a86e7
     :target: https://www.codacy.com/app/JunhaoWang/bittrade?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JunhaoWang/bittrade&amp;utm_campaign=Badge_Grade
@@ -40,10 +39,6 @@ Overview
 .. |version| image:: https://img.shields.io/pypi/v/bittrade.svg
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/bittrade
-
-.. |commits-since| image:: https://img.shields.io/github/commits-since/JunhaoWang/bittrade/v0.1.0.svg
-    :alt: Commits since latest release
-    :target: https://github.com/JunhaoWang/bittrade/compare/v0.1.0...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/bittrade.svg
     :alt: PyPI Wheel

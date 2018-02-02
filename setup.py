@@ -20,7 +20,7 @@ def read(*names, **kwargs):
 
 setup(
     name='bittrade',
-    version='0.1.0',
+    version='0.1.1',
     license='MIT license',
     description='Crypto trading AI agent.',
     long_description='%s\n%s' % (
